@@ -24,7 +24,7 @@ Serial1.begin(9600, SERIAL_8N1, RXD2, TXD2);
 ****************************************************************************************************/
 void loop() {
   
-  Serial.println("looping..")
+  
   unsigned long currentMillis = millis();
   
   now = rtc.now();//GET RTC DATA
